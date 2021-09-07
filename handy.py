@@ -41,7 +41,7 @@ while True:
     res = np.argmax(result)
 
     # Use to show the output of the prediction
-    cv2.putText(outputPrediction, "Result: {}".format(res), (50, 100), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 0), 2)
+    cv2.putText(outputPrediction, "Result: {}".format(res), (50, 100), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255), 2)
 
     # If keyboard input should be done
     if keyPressFlag:
